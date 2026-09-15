@@ -440,3 +440,35 @@
 
 
 
+## Screenshots
+
+### 1. Web Server Running
+
+The Flask web server running successfully inside the Docker container.
+
+![Web Server Running](screenshots/01-web-server.png)
+
+### 2. Health Check
+
+The `/health` endpoint confirms that the application is healthy.
+
+![Health Check](screenshots/02-health-check.png)
+
+### 3. Docker Container Healthy
+
+Docker shows the `codealpha-web-server` container running with a healthy status.
+
+![Docker Container Healthy](screenshots/03-docker-container-healthy.png)
+
+### 4. Docker Logs
+
+Container logs showing the Flask application running and responding to health-check requests.
+
+![Docker Logs](screenshots/04-docker-logs.png)
+
+### 5. Automated Tests
+
+Pytest confirms that all automated tests passed successfully.
+
+![Tests Passed](screenshots/05-tests-passed.png)
+
